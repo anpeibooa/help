@@ -24,7 +24,6 @@
     * [Browse files](cernbox/browse.md)
     * [Synchronize data from your computer](cernbox/sync_files.md)
 * Spark Integration
-    * [Run Spark Locally](spark/local.md)
     * [Run Spark on CERN Clusters](spark/clusters.md)
     * [Spark Monitoring](spark/monitoring.md)
 * Advanced setup
