@@ -26,6 +26,7 @@
 * Spark Integration
     * [Run Spark on CERN Clusters](spark/clusters.md)
     * [Spark Monitoring](spark/monitoring.md)
+    * [Run Spark Locally](spark/local.md)
 * Advanced setup
     * [Install packages in CERNBox](advanced/install_packages.md)
     * [Install and enable notebook extensions](advanced/enable_extensions.md)
