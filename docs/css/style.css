@@ -1,0 +1,71 @@
+
+.md-header {
+    background-color: #03263C;
+}
+
+.md-header[data-md-state=shadow] {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 76.1875em) {
+    html .md-nav--primary .md-nav__title--site {
+        background-color: #03263C;
+    }
+
+    .md-nav__source {
+        display: none;
+    }
+}
+
+.md-footer-meta {
+    background-color: #FAFAFA;
+    border-top: solid 1px #DADADA;
+    font-size: 13px;
+    color: #777777;
+}
+
+.md-footer-meta img {
+    margin: 14px 0;
+    height: 55px;
+}
+
+.md-footer-meta .logo { 
+    float: left;
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+
+.md-footer-meta .text { 
+    float: left;
+    display: inline-block;
+    width: 75%;
+    padding-top: 12px;
+}
+
+.md-footer-meta p {
+    margin: 0;
+}
+
+.md-footer-meta ul {
+    padding: 0;
+    margin: 0;
+}
+
+.md-footer-meta ul li {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.md-footer-meta ul li + li:before {
+    content: "| ";
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+html .md-footer-meta.md-typeset a,
+html .md-footer-meta.md-typeset a:active,
+html .md-footer-meta.md-typeset a:hover,
+html .md-footer-meta.md-typeset a:visited {
+    color: inherit;
+}
